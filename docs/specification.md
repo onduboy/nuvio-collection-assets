@@ -8,18 +8,24 @@ Its goal is to maintain a consistent visual language across all community-create
 
 ---
 
-## Asset Structure
+## Collection Structure
 
-Every collection follows the same directory structure.
+Each collection is stored in its own directory.
 
 Example:
 
 collections/
 └── services/
     └── netflix/
-        ├── backdrop.webp
-        ├── preview.webp
-        └── manifest.json
+        cover.webp
+
+### Asset Naming
+
+The primary artwork for every collection must be named:
+
+cover.webp
+
+This naming convention is used throughout the repository to provide a predictable and consistent structure.
 
 ---
 

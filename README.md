@@ -18,11 +18,23 @@ Every commit represents part of that learning process.
 
 ---
 
+## Project Philosophy
+
+This project intentionally stays simple.
+
+Every convention, directory, and file should have a clear purpose.
+
+If a feature doesn't solve a real problem today, it can wait until it's needed.
+
+---
+
 ## Acknowledgements
 
 This project was inspired by the default collection setup described in the Nuvio Perfect Setup guide.
 
 The goal of this repository is not to replace that work, but to provide an alternative set of visual assets for users who prefer a different design style.
+
+---
 
 ## Goals
 
