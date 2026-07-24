@@ -1,4 +1,4 @@
-# Nuvio Assets
+# Nuvio Canvas
 
 Artwork designed for Nuvio media collections.
 
