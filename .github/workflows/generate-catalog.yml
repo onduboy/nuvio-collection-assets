@@ -1,0 +1,36 @@
+name: Auto Generate Catalog JSON
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'catalog.json' # Evita bucles infinitos cuando el bot actualice el archivo
+
+permissions:
+  contents: write # Otorga permisos al bot para guardar cambios en el repositorio
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Copia el código de tu repositorio
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # 2. Configura Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # 3. Ejecuta tu script
+      - name: Run catalog generator
+        run: python generate_catalog.py
+
+      # 4. Guarda y sube catalog.json si hubo cambios
+      - name: Commit & Push catalog.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-generate catalog.json [skip ci]"
+          file_pattern: 'catalog.json'

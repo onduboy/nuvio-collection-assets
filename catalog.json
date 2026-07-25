@@ -1,0 +1,81 @@
+{
+  "services": [
+    {
+      "id": "apple-tv",
+      "name": "Apple Tv",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/apple-tv/cover.webp"
+      }
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/crunchyroll/cover.webp"
+      }
+    },
+    {
+      "id": "disney",
+      "name": "Disney",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/disney/cover.webp"
+      }
+    },
+    {
+      "id": "hbo-max",
+      "name": "Hbo Max",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/hbo-max/cover.webp"
+      }
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/hulu/cover.webp"
+      }
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/netflix/cover.webp"
+      }
+    },
+    {
+      "id": "paramount",
+      "name": "Paramount",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/paramount/cover.webp"
+      }
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/peacock/cover.webp"
+      }
+    },
+    {
+      "id": "primevideo",
+      "name": "Primevideo",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/primevideo/cover.webp"
+      }
+    },
+    {
+      "id": "shudder",
+      "name": "Shudder",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/shudder/cover.webp"
+      }
+    },
+    {
+      "id": "starz",
+      "name": "Starz",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/services/starz/cover.webp"
+      }
+    }
+  ]
+}
