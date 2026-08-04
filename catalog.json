@@ -1,4 +1,13 @@
 {
+  "discover": [
+    {
+      "id": "recommended",
+      "name": "Recommended",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/discover/recommended/cover.webp"
+      }
+    }
+  ],
   "services": [
     {
       "id": "apple-tv",
