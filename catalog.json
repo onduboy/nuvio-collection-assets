@@ -1,10 +1,31 @@
 {
   "discover": [
     {
+      "id": "popular",
+      "name": "Popular",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/discover/popular/cover.webp"
+      }
+    },
+    {
       "id": "recommended",
       "name": "Recommended",
       "assets": {
         "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/discover/recommended/cover.webp"
+      }
+    },
+    {
+      "id": "top-rated",
+      "name": "Top Rated",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/discover/top-rated/cover.webp"
+      }
+    },
+    {
+      "id": "trending",
+      "name": "Trending",
+      "assets": {
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/discover/trending/cover.webp"
       }
     }
   ],
