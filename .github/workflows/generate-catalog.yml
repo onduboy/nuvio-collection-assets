@@ -4,33 +4,37 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - 'catalog.json' # Evita bucles infinitos cuando el bot actualice el archivo
+  workflow_dispatch: # Permite ejecutar el flujo manualmente desde la pestaña Actions
 
 permissions:
-  contents: write # Otorga permisos al bot para guardar cambios en el repositorio
+  contents: write # Permiso para que el bot haga commit y push
 
 jobs:
   update-catalog:
     runs-on: ubuntu-latest
     steps:
-      # 1. Copia el código de tu repositorio
+      # 1. Obtiene el código del repositorio
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # 2. Configura Python
+      # 2. Configura el entorno de Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      # 3. Ejecuta tu script
+      # 3. Ejecuta el script de generación
       - name: Run catalog generator
         run: python generate-catalog.py
 
-      # 4. Guarda y sube catalog.json si hubo cambios
+      # 4. Guarda y sube catalog.json si hubo cambios ([skip ci] evita bucles infinitos)
       - name: Commit & Push catalog.json
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto-generate catalog.json [skip ci]"
           file_pattern: 'catalog.json'
+
+      # 5. Purga la caché de jsDelivr inmediatamente para que el JSON esté al día
+      - name: Purge jsDelivr Cache
+        run: |
+          curl -s https://purge.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/catalog.json
