@@ -25,7 +25,8 @@
       "id": "trending",
       "name": "Trending",
       "assets": {
-        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/discover/trending/cover.webp"
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/discover/trending/cover.webp",
+        "title-logo": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/discover/trending/title-logo.webp"
       }
     }
   ],
