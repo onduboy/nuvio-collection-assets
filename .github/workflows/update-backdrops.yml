@@ -1,0 +1,54 @@
+name: Update Cine Mamador Backdrops
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monthly, on the 1st at 09:17 Mexico City time.
+    # 17 minutes past the hour avoids the common top-of-hour load.
+    - cron: "17 9 1 * *"
+      timezone: "America/Mexico_City"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cine-mamador-backdrops
+  cancel-in-progress: true
+
+jobs:
+  generate-backdrops:
+    name: Generate Cine Mamador backdrops
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests pillow
+
+      - name: Generate backdrops
+        run: |
+          python scripts/generate_curated.py
+
+      - name: Commit updated backdrops
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add collections/curated/*/backdrop.webp
+
+          if git diff --cached --quiet; then
+            echo "No backdrop changes detected."
+            exit 0
+          fi
+
+          git commit -m "chore: update Cine Mamador backdrops"
+          git push
