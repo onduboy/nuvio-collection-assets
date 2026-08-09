@@ -4,42 +4,48 @@
       "id": "a24",
       "name": "A24",
       "assets": {
-        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/a24/backdrop.webp"
+        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/a24/backdrop.webp",
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/a24/cover.webp"
       }
     },
     {
       "id": "arrow",
       "name": "Arrow",
       "assets": {
-        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/arrow/backdrop.webp"
+        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/arrow/backdrop.webp",
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/arrow/cover.webp"
       }
     },
     {
       "id": "criterion",
       "name": "Criterion",
       "assets": {
-        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/criterion/backdrop.webp"
+        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/criterion/backdrop.webp",
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/criterion/cover.webp"
       }
     },
     {
       "id": "janus",
       "name": "Janus",
       "assets": {
-        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/janus/backdrop.webp"
+        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/janus/backdrop.webp",
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/janus/cover.webp"
       }
     },
     {
       "id": "mubi",
       "name": "Mubi",
       "assets": {
-        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/mubi/backdrop.webp"
+        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/mubi/backdrop.webp",
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/mubi/cover.webp"
       }
     },
     {
       "id": "neon",
       "name": "Neon",
       "assets": {
-        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/neon/backdrop.webp"
+        "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/neon/backdrop.webp",
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/neon/cover.webp"
       }
     },
     {
