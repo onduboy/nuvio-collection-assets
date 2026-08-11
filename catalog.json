@@ -5,7 +5,8 @@
       "name": "A24",
       "assets": {
         "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/a24/backdrop.webp",
-        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/a24/cover.webp"
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/a24/cover.webp",
+        "logo": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/a24/logo.png"
       }
     },
     {
@@ -13,7 +14,8 @@
       "name": "Arrow",
       "assets": {
         "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/arrow/backdrop.webp",
-        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/arrow/cover.webp"
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/arrow/cover.webp",
+        "logo": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/arrow/logo.png"
       }
     },
     {
@@ -21,7 +23,8 @@
       "name": "Criterion",
       "assets": {
         "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/criterion/backdrop.webp",
-        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/criterion/cover.webp"
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/criterion/cover.webp",
+        "logo": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/criterion/logo.webp"
       }
     },
     {
@@ -29,7 +32,8 @@
       "name": "Janus",
       "assets": {
         "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/janus/backdrop.webp",
-        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/janus/cover.webp"
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/janus/cover.webp",
+        "logo": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/janus/logo.png"
       }
     },
     {
@@ -37,7 +41,8 @@
       "name": "Mubi",
       "assets": {
         "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/mubi/backdrop.webp",
-        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/mubi/cover.webp"
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/mubi/cover.webp",
+        "logo": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/mubi/logo.png"
       }
     },
     {
@@ -45,7 +50,8 @@
       "name": "Neon",
       "assets": {
         "backdrop": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/neon/backdrop.webp",
-        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/neon/cover.webp"
+        "cover": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/neon/cover.webp",
+        "logo": "https://cdn.jsdelivr.net/gh/onduboy/nuvio-collection-assets@main/collections/curated/neon/logo.png"
       }
     },
     {
